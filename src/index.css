@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
+
+
+::-webkit-scrollbar {
+  width: 0.88rem;
+ }
+ 
+::-webkit-scrollbar-track {
+  border: 7px solid #292c3b;
+  box-shadow: inset 0 0 2.5px 2px rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+  background-color: #d4d4d8;
+  }
+ 
+::-webkit-scrollbar-thumb {
+  background: #999;
+  border-radius: 2px;
+}
+ 
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+ 
+/* for Firefox */
+ html {scrollbar-color:#CE93D8 #3d4a59;} 
+.css-33udvg-MuiDataGrid-root .MuiDataGrid-cell--textCenter {
+  text-align: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  align-content: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
